@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --unilins-navy: #002244;
+  --unilins-blue: #003366;
+  --unilins-royal: #004b8d;
+  --unilins-sky: #0066b3;
+  --unilins-gold: #f59e0b;
+  --unilins-gold-light: #fbbf24;
+  --bg-page: #f4f7fb;
+  --text-main: #0f172a;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), Arial, Helvetica, sans-serif;
+  --font-heading: var(--font-montserrat), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
