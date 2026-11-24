@@ -104,9 +104,9 @@ export default function HomePage() {
                 3. Ranking no Neon
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Ao acertar, registre seu nome para salvar seu recorde no banco
-                Neon. Quem acertar com <strong>menos tentativas</strong> fica no
-                topo de cada dificuldade!
+                Informe seu nome antes de iniciar a partida. Ao acertar, seu
+                recorde é salvo automaticamente no banco Neon — quem acertar com{" "}
+                <strong>menos tentativas</strong> fica no topo!
               </p>
             </div>
           </div>
